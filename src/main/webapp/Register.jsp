@@ -7,11 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Registration Form</h2>
+	<h1 style="color:'red'">Registration Form</h1>
 	<form action="regForm" method="post">
 		Name: <input type="text" name="name"/><br><br>
 		E-Mail: <input type="email" name="email"/><br><br>
-		Gender: <input type="radio" name="gender"/>Male <input type="radio" name="gender1"/>Female <br><br>
+		Gender: <input type="radio" name="gender" value="Male"/>Male 
+				<input type="radio" name="gender1" value="Female"/>Female <br><br>
 		Password: <input type="password" name="password"/><br><br>
 		City: <select>
 				<option>Bengaluru</option>
