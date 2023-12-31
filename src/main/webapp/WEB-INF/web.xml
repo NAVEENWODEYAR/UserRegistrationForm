@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description>Basic form for user registration</description>
+    <display-name>RegistrationForm</display-name>
+    <servlet-name>RegistrationForm</servlet-name>
+    <servlet-class>com.registration.servlet.RegistrationForm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationForm</servlet-name>
+    <url-pattern>/RegistrationForm</url-pattern>
+  </servlet-mapping>
 </web-app>
